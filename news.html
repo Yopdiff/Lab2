@@ -2,8 +2,8 @@
 =========================================================
 Name        : news.html
 Assignment  : Lab 2 Exercise C
-Author(s)   : Mahdi Ansari, William Arthur Philip Louis
-Submission  : May 21, 2030
+Author(s)   : Hyunmyung Park and Hongwoo yoon
+Submission  : Jan, 24th 2024
 Description : A simple HTML file.
 =========================================================
 -->
@@ -31,7 +31,7 @@ Description : A simple HTML file.
         <article>
             <h2>Article Title</h2>
 			
-			<p>This is a paragraph in an article section. It demonstrates text formatting, like bold, italic, and marked text.</p>
+			<p>This is a paragraph in an article section. It demonstrates text formatting, like ,<strong>bold</strong>, <em>italic</em> , and <mark>marked text</mark>.</p>
 			<!-- To emphasize specific words in the paragraph, apply appropriate HTML tags: 
 			<strong> or <b> for bold text, 
 			<em> or <i> for italic text, and
@@ -53,12 +53,21 @@ Description : A simple HTML file.
             <li>First item</li>
             <li>Second item</li>
 			<!--Make a sub-ordered list here-->
+            <ol>
+                <li>First item</li>
+                <li>Second item</li>
+                <li>Third item</li>
+            </ol>
             <li>Third item</li>
         </ol>
         <p>Unordered List:</p>
         <ul>
             <li>Bullet item</li>
 			<!--Make a sub-unordered list here-->
+            <ul>
+                <li>Bullet item</li>
+                <li>Another bullet item</li>
+            </ul>
             <li>Another bullet item</li>
             <li>Yet another bullet item</li>
         </ul>
@@ -74,7 +83,7 @@ Description : A simple HTML file.
             <dt>HTML</dt>
             <dd>Hypertext Markup Language.</dd>
 			<dt>CSS</dt>
-            <dd><!--Add CSS definition here--></dd>
+            <dd>Cascading Style Sheets</dd>
         </dl>
 		
         
@@ -104,21 +113,22 @@ Description : A simple HTML file.
 			<tfoot>
 				<tr>
 					<td>Total</td>
-					<td><!--Put column total here--></td>
-					<td><!--Put column total here--></td>
+					<td>$3800</td>
+					<td>$2700</td>
 				</tr>
 			</tfoot>
         </table>
 		
 		<h3>Images:</h3>
         <p>Adding an image:</p>
-        <img src="example.jpg" alt="Example Image"> <!--Fix addressing issue-->
+        <img src= "images/example.jpg" alt="Example Image"> <!--Fix addressing issue-->
     </section>
 
     <footer>
-        <p>Footer content, like contact info or copyrights.</p>
+        <!--<p>Footer content, like contact info or copyrights.</p>-->
 		<!--Comment out the above p tag and add a new p tag under this comment.
-			The new p tag must contain {Copy right + your names}.-->	
+			The new p tag must contain {Copy right + your names}.-->
+        <p>&copy; 2024 Hongwoo Yoon and Hyunmyung Park</p>
     </footer>
 </body>
 </html>
